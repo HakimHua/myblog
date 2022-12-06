@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>华仔的Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="华仔的Blog">
+<meta property="og:url" content="https://github.com/HakimHua/myblog/index.html">
+<meta property="og:site_name" content="华仔的Blog">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="华仔">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/myblog/atom.xml" title="华仔的Blog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/myblog/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/myblog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/myblog/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/myblog/" id="logo">华仔的Blog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/myblog/">Home</a>
+        
+          <a class="main-nav-link" href="/myblog/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/myblog/atom.xml" title="RSS 订阅"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://github.com/HakimHua/myblog"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-first_blog" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/myblog/2022/12/03/first_blog/" class="article-date">
+  <time class="dt-published" datetime="2022-12-03T07:09:31.026Z" itemprop="datePublished">2022-12-03</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Hexo博客搭建"><a href="#Hexo博客搭建" class="headerlink" title="Hexo博客搭建"></a>Hexo博客搭建</h1><h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><p>这个非常简单，不做过多阐述！</p>
+<h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h2><p>安装的过程也非常简单，不做过多阐述。</p>
+<h3 id="安装cnpm"><a href="#安装cnpm" class="headerlink" title="安装cnpm"></a>安装cnpm</h3><p>在命令输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+<h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><p>在命令行输入:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<h2 id="博客初始化"><a href="#博客初始化" class="headerlink" title="博客初始化"></a>博客初始化</h2><p>新建一个用于存放博客的目录（英文）。</p>
+<p>在命令行cd到此博客目录下，然后输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<p>这将在目标目录下创建hexo项目。</p>
+<h3 id="运行博客"><a href="#运行博客" class="headerlink" title="运行博客"></a>运行博客</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p>然后在浏览器中输入<code>localhost:4000</code>即可查看博客网页。</p>
+<h3 id="新建博客"><a href="#新建博客" class="headerlink" title="新建博客"></a>新建博客</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;标题&quot;</span><br></pre></td></tr></table></figure>
+
+<p>当然，你可以可以直接在<code>hexo项目/source</code>目录下创建<code>md</code>文件。</p>
+<h3 id="生成博客网页"><a href="#生成博客网页" class="headerlink" title="生成博客网页"></a>生成博客网页</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  # 清理博客缓存，防止生成的内容与预期不一致</span><br><span class="line">hexo g    # 生成博客网页</span><br></pre></td></tr></table></figure>
+
+<h2 id="部署博客到gitee"><a href="#部署博客到gitee" class="headerlink" title="部署博客到gitee"></a>部署博客到gitee</h2><p>在gitee上创建一个空项目，项目名称根据自己的需要来。假设项目地址为<code>https://gitee.com/xxx/myblog</code></p>
+<h3 id="安装git插件"><a href="#安装git插件" class="headerlink" title="安装git插件"></a>安装git插件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
+
+<h3 id="设置远程仓库"><a href="#设置远程仓库" class="headerlink" title="设置远程仓库"></a>设置远程仓库</h3><p>修改<code>_config.yml</code>文件：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># URL</span><br><span class="line">url: https://gitee.com/xxx   # 注意此处为你的gitee地址</span><br><span class="line">root: /myblog/        # 注意这个为你的博客名</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">deploy:</span><br><span class="line">    type: git</span><br><span class="line">    repo: https://gitee.com/xxx/myblog    # 这个为你的博客项目地址</span><br><span class="line">    branch: master</span><br></pre></td></tr></table></figure>
+
+<h3 id="将博客内容推送到gitee"><a href="#将博客内容推送到gitee" class="headerlink" title="将博客内容推送到gitee"></a>将博客内容推送到gitee</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<h2 id="启动静态页面"><a href="#启动静态页面" class="headerlink" title="启动静态页面"></a>启动静态页面</h2><p>在你的博客项目地址中启动<code>Gitee Pages</code>服务，这个可能需要你验证个人信息。</p>
+<h2 id="博客流程"><a href="#博客流程" class="headerlink" title="博客流程"></a>博客流程</h2><h3 id="1-写博客"><a href="#1-写博客" class="headerlink" title="1. 写博客"></a>1. 写博客</h3><p>在source目录下创建<code>md</code>文件，编写博客内容。</p>
+<h3 id="2-清缓存-amp-生成页面"><a href="#2-清缓存-amp-生成页面" class="headerlink" title="2. 清缓存&amp;生成页面"></a>2. 清缓存&amp;生成页面</h3><p>执行:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-推送到gitee"><a href="#3-推送到gitee" class="headerlink" title="3. 推送到gitee"></a>3. 推送到gitee</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-更新gitee页面"><a href="#4-更新gitee页面" class="headerlink" title="4. 更新gitee页面"></a>4. 更新gitee页面</h3><p>在<code>Gitee pages</code>服务中点击<code>更新</code>按钮。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://github.com/HakimHua/myblog/2022/12/03/first_blog/" data-id="clbcclr3d0000zgvq0j1t74vp" data-title="" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/myblog/archives/2022/12/">十二月 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/myblog/2022/12/03/first_blog/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 华仔<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/myblog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/myblog/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/myblog/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/myblog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/myblog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
